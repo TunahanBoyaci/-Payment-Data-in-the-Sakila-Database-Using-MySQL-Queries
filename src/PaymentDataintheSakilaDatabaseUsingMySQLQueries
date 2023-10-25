@@ -1,0 +1,8 @@
+use sakila;
+select * from payment;
+select sum(amount) as Revenue from payment;
+select avg(amount) as AveragePayment from payment;
+select min(amount) from payment;
+select max(amount) from payment;
+select min(amount) - max(amount) from payment;
+select "Hello World" as message;
